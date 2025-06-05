@@ -35,11 +35,12 @@ class Stack
         cout << "push value:" << value << endl;
         return value; 
     }
+    //is Empty operation: check if the stack is Empty
     bool isEmpty()
     {
-        return top== NULL;
+        return top== NULL;// Return true if the top pointer is NULL, indicating an empty st
     }
-
+    // pop operation: Remove the topmost element from the stack
     void pop()
     {
         if (isEmpty())
