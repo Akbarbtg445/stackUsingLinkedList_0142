@@ -21,7 +21,7 @@ class Stack
     Node*top;
 
     public:
-    Stack()
+    Stack()// intilaze the stack node of the stack
     {
         top = NULL; // pointer to the top node of the stack
     }
