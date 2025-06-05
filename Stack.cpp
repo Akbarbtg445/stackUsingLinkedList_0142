@@ -18,7 +18,7 @@ class Node
 class Stack
 {
     private:
-    Node*top;
+    Node*top;// pointer to the top node of the stack
 
     public:
     Stack()// intilaze the stack node of the stack
