@@ -2,6 +2,7 @@
 using namespace std;
 
 //stack Node
+//node class representing a single node in the linked list
 class Node
 {
     public:
