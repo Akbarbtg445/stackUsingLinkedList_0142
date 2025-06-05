@@ -47,7 +47,7 @@ class Stack
         if (isEmpty())
         {
             cout << "Stack is empty." << endl;
-            return;
+            return;// if the stack is empty, print a mesage and return
         }
         cout << "Propped value:" << top->data << endl;
         top = top->next; //update  the top pointer to the next node 
