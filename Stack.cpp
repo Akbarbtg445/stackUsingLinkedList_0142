@@ -50,7 +50,7 @@ class Stack
             return;
         }
         cout << "Propped value:" << top->data << endl;
-        top = top->next;
+        top = top->next; //update  the top pointer to the next node 
     }
     //peek/Top operation: Retrive the value of the top most element without removing it
     void peek()
