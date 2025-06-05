@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//stack Node
 class Node
 {
     public:
