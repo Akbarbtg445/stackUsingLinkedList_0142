@@ -71,3 +71,28 @@ class Stack
         }// Return the value of the top node
     }
 };
+int main()
+{
+    Stack stack;
+
+    int choice = 0;
+    int value;
+
+    while(choice !=4)
+    {
+        cout << "1. Push\n";
+        cout << "2. Pop\n";
+        cout << "3. Peek\n";
+        cout << "4. Exit\n";
+        cout << "Enter your choice:";
+        cin >> choice;
+
+        switch (choice)
+        {
+            case 1:
+            cout << "Enter the value to push:";
+            cin >> value;
+            stack.push(value);// push the entred value onto the stack
+        }
+    }
+}
