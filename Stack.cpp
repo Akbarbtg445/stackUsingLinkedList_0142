@@ -35,4 +35,24 @@ class Stack
         cout << "push value:" << value << endl;
         return value; 
     }
+    bool isEmpty()
+    {
+        return top== NULL;
+    }
+
+    void pop()
+    {
+        if (isEmpty())
+        {
+            cout << "Stack is empty." << endl;
+            return;
+        }
+        cout << "Propped value:" << top->data << endl;
+        top = top->next;
+    }
+
+    void peek()
+    {
+        
+    }
 };
