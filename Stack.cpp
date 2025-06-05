@@ -22,6 +22,17 @@ class Stack
     public:
     Stack()
     {
-        top = NULL;
+        top = NULL; 
+    }
+
+    // push operation: Insert an element onto the top of the stack
+    int push (int value)
+    {
+        Node*newNode = new Node();
+        newNode->data = value;
+        newNode->next = top;
+        top = newNode;
+        cout << "push value:" << value << endl;
+        return value; 
     }
 };
