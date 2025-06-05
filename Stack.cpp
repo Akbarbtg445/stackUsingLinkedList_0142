@@ -95,7 +95,7 @@ int main()
             stack.push(value);// push the entred value onto the stack
             break;
             case 2:
-            stack.pop();
+            stack.pop();// pop the topmost element from the stack
             break;
             case 3:
             stack.peek();
