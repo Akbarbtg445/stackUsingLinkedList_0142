@@ -23,7 +23,7 @@ class Stack
     public:
     Stack()
     {
-        top = NULL; 
+        top = NULL; // pointer to the top node of the stack
     }
 
     // push operation: Insert an element onto the top of the stack
