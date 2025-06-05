@@ -93,6 +93,20 @@ int main()
             cout << "Enter the value to push:";
             cin >> value;
             stack.push(value);// push the entred value onto the stack
+            break;
+            case 2:
+            stack.pop();
+            break;
+            case 3:
+            stack.peek();
+            break;
+
+            case 4:
+            cout << "Exiting program." << endl;
+            break;
+            default:
+            cout << "invalid Choice. Try Again." << endl;
+            break;
         }
     }
 }
